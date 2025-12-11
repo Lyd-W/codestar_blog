@@ -44,7 +44,7 @@ def post_detail(request, slug):
             messages.add_message(
                 request, messages.SUCCESS,
                 'Comment submitted and awaiting approval'
-    )
+            )
 
     return render(
         request,
